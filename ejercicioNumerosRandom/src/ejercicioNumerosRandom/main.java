@@ -18,8 +18,8 @@ public class main {
 			 */
 
 			
-			numram1 = (int) Math.random() * i; 
-			numram2 = (int) Math.random() * i;
+			numram1 = (int) (Math.random() * i) + 1; 
+			numram2 = (int) (Math.random() * i) + 1;
 			 
 
 			num1 = numram1 - numram2;
